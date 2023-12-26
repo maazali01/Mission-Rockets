@@ -1,0 +1,36 @@
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: darkblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  .link {
+    list-style: none;
+    font-size: 1rem;
+  }
+  
+  .links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .title {
+      font-size: 1.8rem;
+    }
+  
+    .navBar {
+      display: block;
+    }
+  }
+  
